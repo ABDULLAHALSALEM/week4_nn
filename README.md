@@ -1,3 +1,86 @@
+# 🧩 Deep Learning Foundations – C1M1 Assignment
+
+## 📌 Overview
+This notebook represents the **C1M1 assignment**, which focuses on the **foundational concepts of deep learning and PyTorch**.  
+The main objective of this module is to understand the basic building blocks required before moving to full model training workflows.
+
+The assignment emphasizes clarity, correctness, and familiarity with the deep learning environment.
+
+---
+
+## 📁 Notebook Information
+- **File name**: `C1M1_Assignment.ipynb`
+- **Module**: C1M1 – Deep Learning Foundations
+- **Framework**: PyTorch
+- **Environment**: Google Colab
+
+---
+
+## 🧠 Learning Objectives
+This assignment helps in understanding:
+
+- The basic structure of a deep learning project
+- How to work with tensors in PyTorch
+- The role of datasets and data loaders
+- Fundamental neural network components
+- Preparing the environment for later deep learning modules
+
+---
+
+## ⚙️ Core Concepts Covered
+The notebook introduces and demonstrates:
+
+- Creating and manipulating tensors
+- Understanding tensor shapes and data types
+- Using PyTorch modules and functions
+- Basic operations required for neural networks
+- Setting up the workflow for model development
+
+---
+
+## 🔄 Workflow Structure
+The notebook follows a simple and clear workflow:
+
+1. Import required libraries
+2. Initialize the deep learning environment
+3. Work with tensors and basic operations
+4. Prepare data-related components
+5. Validate outputs and intermediate results
+
+This structure ensures readiness for more advanced modules.
+
+---
+
+## 🧪 Verification
+To ensure correctness, the notebook includes:
+- Output checks
+- Shape and type verification
+- Step-by-step execution to validate understanding
+
+---
+
+## 🧰 Tools & Libraries
+- Python
+- PyTorch
+- Google Colab
+
+---
+
+## ✅ Conclusion
+This assignment establishes a strong foundation for deep learning using PyTorch.  
+By completing this notebook, the essential concepts required for subsequent modules—such as data management, model training, and evaluation—are clearly understood.
+
+---
+
+## 🚀 Next Steps
+- Move to data management and preprocessing (C1M3)
+- Implement full training workflows (C1M2)
+- Explore CNN architectures and transfer learning
+
+---
+
+
+
 # 🧠 Deep Learning Workflow – C1M2 Assignment
 
 ## 📌 Overview
