@@ -1,3 +1,98 @@
+# 🧠 Deep Learning Workflow – C1M2 Assignment
+
+## 📌 Overview
+This notebook implements a complete **deep learning workflow** using **PyTorch** as part of the **C1M2 assignment**.  
+The focus of this module is on building, training, and evaluating image classification models, following best practices in model development.
+
+The assignment demonstrates how raw image data is transformed into a trained model through a structured training pipeline.
+
+---
+
+## 📁 Notebook Information
+- **File name**: `(ABDULLAH_ALSALEM)C1M2_Assignment (1).ipynb`
+- **Module**: C1M2 – Deep Learning Workflow
+- **Framework**: PyTorch
+- **Environment**: Google Colab
+
+---
+
+## 🗂 Dataset
+- **Task**: Multi-class image classification
+- **Input**: RGB images
+- **Image size**: Standardized before training
+- **Loading method**: PyTorch `DataLoader`
+
+The dataset is prepared and loaded in batches to ensure efficient training and evaluation.
+
+---
+
+## ⚙️ Data Preprocessing
+The notebook applies essential preprocessing steps, including:
+
+- Image resizing and cropping
+- Conversion to tensors
+- Normalization
+- Data augmentation for training data
+
+These steps help improve model generalization and stability during training.
+
+---
+
+## 🧠 Models Used
+The assignment explores CNN-based architectures for image classification, including:
+
+- **Convolutional Neural Networks (CNNs)** built from scratch
+- **Pretrained CNN models** using transfer learning (when applicable)
+
+Model architectures are adapted to match the number of target classes.
+
+---
+
+## 🏋️ Training Pipeline
+The training workflow includes:
+
+- Forward pass through the model
+- Loss computation using `CrossEntropyLoss`
+- Backpropagation
+- Parameter updates using the Adam optimizer
+
+Key training parameters:
+- **Optimizer**: Adam
+- **Loss Function**: CrossEntropyLoss
+- **Batch Size**: Configurable
+- **Epochs**: Defined based on experimentation
+- **Device**: GPU if available, otherwise CPU
+
+---
+
+## 📊 Evaluation
+Model performance is evaluated using:
+
+- Training loss and accuracy
+- Test loss and accuracy
+
+Evaluation is performed on unseen data to measure the model’s ability to generalize.
+
+---
+
+## 🖼 Visualization
+The notebook includes visualization of:
+- Sample images
+- Model predictions vs. true labels
+
+This qualitative analysis supports numerical evaluation metrics.
+
+---
+
+## 💾 Model Saving
+Trained models can be saved for later use or inference:
+
+```python
+torch.save(model.state_dict(), "model_name.pth")
+```
+
+
+
 # 📊 Image Data Management – C1M3 Assignment
 
 ## 📌 Overview
