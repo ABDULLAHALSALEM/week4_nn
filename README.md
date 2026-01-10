@@ -1,3 +1,98 @@
+# 📊 Image Data Management – C1M3 Assignment
+
+## 📌 Overview
+This notebook focuses on **image data management and preparation** as part of the C1M3 assignment.  
+The main objective is to correctly load, organize, preprocess, and prepare image datasets for deep learning workflows using **PyTorch**.
+
+The assignment emphasizes data handling rather than model optimization or advanced architectures.
+
+---
+
+## 📁 Notebook Information
+- **File name**: `(ABDULLAH_ALSALEM(EDT)Copy_of_C1M3_Assignment.ipynb`
+- **Module**: C1M3 – Data Management
+- **Framework**: PyTorch
+- **Environment**: Google Colab
+
+---
+
+## 🗂 Dataset Handling
+- **Task type**: Multi-class image classification
+- **Input data**: RGB images
+- **Dataset structure**: Directory-based class folders
+- **Loading method**: `torchvision.datasets.ImageFolder`
+
+The dataset is organized so that each class is represented by a separate folder, allowing automatic label assignment.
+
+---
+
+## ⚙️ Data Preprocessing
+The following preprocessing steps are applied to prepare the images for training:
+
+- Resize images to a fixed resolution
+- Convert images to PyTorch tensors
+- Normalize images using standard mean and standard deviation values
+- Apply data augmentation techniques for training data:
+  - Random resized crop
+  - Random horizontal flip
+
+These steps ensure consistency and improve generalization in later training stages.
+
+---
+
+## 🔄 Data Loaders
+Data loaders are created using `torch.utils.data.DataLoader` to:
+
+- Load data in batches
+- Shuffle training data
+- Optimize data feeding during training
+
+Key parameters:
+- **Batch size**: Configurable
+- **Shuffle**: Enabled for training
+- **Workers**: Used to speed up data loading
+
+---
+
+## 🧪 Verification and Inspection
+To ensure correct data handling, the notebook includes:
+- Dataset size checks
+- Class count verification
+- Visual inspection of sample images
+
+This helps confirm that the dataset is loaded correctly and labels are assigned as expected.
+
+---
+
+## 🎯 Scope of the Assignment
+This assignment focuses on:
+- Correct dataset structure
+- Proper preprocessing
+- Efficient data loading
+
+Model training and performance optimization are **not** the primary objectives of this module.
+
+---
+
+## 🧰 Tools & Libraries
+- Python
+- PyTorch
+- Torchvision
+- Google Colab
+- Matplotlib
+
+---
+
+## ✅ Conclusion
+This notebook demonstrates proper image data management practices required for deep learning projects.  
+By correctly organizing, preprocessing, and loading the dataset, it establishes a solid foundation for subsequent model training and evaluation stages in later modules.
+
+---
+
+
+
+
+
 # 🌼 Flower Image Classification – C1M4 Assignment
 
 ## 📌 Overview
